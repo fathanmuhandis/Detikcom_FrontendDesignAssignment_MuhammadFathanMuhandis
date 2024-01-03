@@ -1,0 +1,148 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 35px;
+    background: rgba(255, 255, 255, 0.50);
+    width: 100%;
+    background-color: transparent;
+    margin-top: 2em;
+
+}
+
+.navLine {
+    justify-content: space-between;
+    display: flex;
+    width: 70%;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(25px);
+    padding: 1em;
+}
+
+.navbarBrand {
+    width: 200px;
+    height: 42.27px
+}
+
+.navMenu {
+    flex: 1 1 0;
+    height: 40px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 51px;
+    display: flex
+}
+
+#header {
+    background: url(/images/bg-desktop-1.svg) top/cover no-repeat;
+    width: 100%;
+    height: 125vh;
+    z-index: -20;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#logoEvent {
+    background: url(/images/logo-event-2.svg) top/cover no-repeat;
+    width: 686px;
+    height: 276px;
+    margin-top: 400px;
+    margin-left: 300px;
+}
+
+.button {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    left: 300px;
+    top: 740px;
+    position: absolute;
+    background: #FFC73C;
+    box-shadow: 0px 18px 40px 12px rgba(255, 211.26, 102.68, 0.35);
+    border-radius: 100px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin-top: 40em;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin-top: 10em;
+    width: 100%;
+    height: 338px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: linear-gradient(237deg, #59FFB9 0%, #326CFF 100%);
+    flex-direction: column;
+    gap: 30px;
+    display: inline-flex;
+    overflow-y: hidden
+}
+
+.sponsorContainer {
+    display: inline-flex;
+    align-items: flex-start;
+    width: 291px;
+    height: 144px;
+    border-radius: 10px;
+    background: #FFF;
+    margin: 10px;
+    overflow-x: auto;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+}
+
+.berita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+}
+
+.judulBerita {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #28A997;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    display: inline-flex
+}
